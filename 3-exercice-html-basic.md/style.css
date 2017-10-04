@@ -1,0 +1,117 @@
+#menu {
+	background-color: #F2E900;
+	text-align: horizontal;
+	width: 100%;	
+	
+}
+
+.link {
+	text-decoration: none;
+	color: #48473A; 
+	font-family: Lucida Sans Typewriter, monospace;
+	font-size: 16px;
+	margin: 12px;
+	line-height: 20px;
+	text-shadow: 1px 1px #f7eeee;
+}
+
+nav {
+	width: 100%;
+	background-color: yellow;
+	height: 50px;
+
+}
+
+ul {
+	width: 95%;
+	height: 100%;
+	background-color: yellow;
+	margin-top: 50px;
+}
+
+li {
+	width: 20%;
+    float: left;
+    text-decoration: none;
+	text-align: center;
+	list-style-type: none;
+	background-color: yellow;
+	height: 40px;
+	margin-top: 0.8%;
+
+}
+
+.titrecollectif {
+	margin-top: 50px;
+	width: 1000px;
+	margin-left: 150px;
+
+	
+}
+
+.titre {
+	text-align: center;
+	color: black;
+	margin-top: 5%;
+	font-family: Chalkduster, fantasy;
+}
+
+.frigo1 {
+	height: 650px;
+	text-align: center;
+	padding-top: 1.5%;
+	padding-bottom: 3%;
+	margin-right: 12%;
+	margin-left: 12%;
+}
+
+h1 { 
+	text-align:center; 
+	color:black;
+	font-size: 40px;
+	font-family: Lucida Sans Typewriter, monospace;
+	
+}
+
+.content1 {
+	margin-right: 350px;
+    margin-left: 350px;
+    text-align: justify; 
+    font-size: 18px;
+    font-family: Lucida Sans Typewriter, monospace;
+  
+}
+
+.chaussures1{
+ 	padding-top: 5%;
+ 	padding-bottom: 5%;
+    height: 358px;
+    float: right;
+}
+
+.aide {
+    padding-top: 5%;
+    padding-bottom: 3%;
+    height: 250px;
+}
+
+.chat {
+	padding-top: 5%;
+	padding-bottom: 3%;
+    margin-left: 98px;
+    height: 250px;
+    float: left;
+}
+
+.coordonnees {
+	font-size: 18px;
+    font-family: Lucida Sans Typewriter, monospace;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+ }
+
+footer {
+	text-align: center;
+	font-family: Lucida Sans Typewriter, monospace;
+}
