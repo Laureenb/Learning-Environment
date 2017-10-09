@@ -1,0 +1,127 @@
+    <!DOCTYPE html>
+    <html>
+      <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <title>De Markdown to HTML</title>
+      </head>
+      <body>
+        <div class="markdown">
+            <h1><u>Le Markdown</u></h1> 
+        </div>     
+            <p>Le <em>Markdown</em> est un système de formatage de texte minimaliste. Il est de plus en plus utilisé. C'est un système d'édition et de formatage de texte.
+            <br>Dans ce document, nous allons découvrir les fonctionnalités de base.</p>            
+            <p>Vous trouverez ci-dessous les explications des fonctionnalités suivantes:</p>
+            <ul>
+                <li>une liste à puces</li>
+                <li>une liste numérotée</li>
+                <li>2 ou 3 niveaux de titres et sous-titres</li>
+                <li>des liens</li>
+                <li>insertion d’une image statique</li>
+                <li>insertion d’une image animée</li>
+                <li>au moins une liste (à puce ou ordonnée) imbriquées (donc plusieurs niveaux hiérarchiques)</li>
+                <li>un bout de code, avec coloration syntaxique</li>
+            </ul>
+            <br/>
+            <h3>La liste à puce, ou liste non ordonnée</h3>
+            <p>Rien de tel qu'un petit briefing de réunion en <b>bulletpoint</b> avec des * a chaque début de ligne.</p>            
+            <ul>
+                <li>C'est chic et pratique.</li>
+                <li>On l'apprecie pour sa clarté.</li>
+                <li>Elle ravira les esprits cartésiens.</li>
+            </ul>            
+             <p><b>La liste numérotée, liste ordonnée</b> est très simple avec les numéros en début de ligne ; 1. 2. 3...</p>
+            <ol>
+                <li>En cas de rush, la liste ordonnée vous permettra de prioriser les tâches.</li>
+                <li>Très utile pour expliquer les marches à suivre d'un programme ou d'une activité.</li>
+               <li>Son esthétisme numérique ravira le matheux qui sommeille en vous.</li>
+            </ol>
+            <br/>
+            <h3>Les titres</h3>
+            <p>Les titres sont créés avec un certain nombre de # avant le titre, qui correspondent au niveau de titre souhaité (le HTML propose 6 niveaux de titres de < h1 > à < h6 >).</p>
+            <h1>un titre de premier niveau</h1>
+            <h2>un titre de deuxième niveau</h2>
+            <h3 class="titre">un titre de troisième niveau</h3>
+            <h4>un titre de quatrième niveau</h4>
+            <h5>un titre de cinquième niveau</h5>
+            <h6>un titre de sixième niveau</h6>
+             <p>Pour les deux premiers niveaux de titre (< h1 > et < h2 >), il est également possible de souligner le titre avec des = ou des - (leur nombre réel importe peu, mais il doit être supérieur à 2).</p>
+            <br/>
+            <h3>Les tableaux</h3>
+            <p>Les tableaux n’existent pas dans la spécification markdown originale, mais ils sont présent dans la plupart des implémentations récentes. Et il ont vraiment une utilité très forte dans certains cas.
+
+            L’idée globale est de “dessiner” des colonnes en les entourant avec des pipes |. Le nombre de colonnes est défini dans la première ligne du tableau et vous devez pour chaque ligne avoir le même nombre de colonnes, même si certaines sont vides.
+
+            La première ligne sera votre en-tête. La seconde ligne sépare cet en-tête du corps du tableau et définit l’alignement du texte dans les colonnes. Elle ne contient que des tiret - et des deux points : sont utilisés pour définir cet alignement. Pas de : ou juste un à gauche signifie que le texte sera aligné à gauche. Si la ligne de - est entourée de 2 :, le texte sera centré et si un seul : est présent à droite de la ligne, le texte sera aligné à droite.</p>
+            <p>Pour créer des tableaux (balises HTML < tr > et < th >)</p>
+            <br/>       
+            | Titre 1       |     Titre 2     |   Titre 3      |
+            <br/>
+            | ------------- | -------------   | -------------     |
+            <br/>
+            | Colonne       |     Colonne     |      Colonne       |
+            <br/>
+            | Alignée à     |      Alignée au |     Alignée à  |
+            <br/>
+            | Gauche        |      Centre     |      Droite        |    
+            <br/>
+            <br/>
+            <table>
+                <tr>
+                    <td>Titre 1</td> 
+                    <td>Titre 2</td> 
+                    <td>Titre 3</td>  
+                </tr>
+                    <tr>
+                    <td>colonne</td> 
+                    <td>colonne</td> 
+                    <td>colonne</td>  
+                </tr>
+                <tr>
+                    <td>alignée</td> 
+                    <td>alignée</td> 
+                    <td>alignée </td>  
+                </tr>
+                <tr>
+                    <td>à gauche</td> 
+                    <td>au centre</td> 
+                    <td>à droite</td>  
+                </tr>
+            </table>
+            <br/>
+            <h3>Liens</h3>
+            <p>Pour créer un lien, vous devez placer le texte du lien entre crochets suivis de l'URL entre parenthèses :</p>
+            <p>Pour en savoir plus sur le sujet n'hésitez pas à consulter le [document suivant.](https://blog.wax-o.com/2014/04/tutoriel-un-guide-pour-bien-commencer-avec-markdown/)</p>
+            <i>Ce qui donne:</i>
+            <a target="_BLANK" href="https://blog.wax-o.com/2014/04/tutoriel-un-guide-pour-bien-commencer-avec-markdown/">Pour en savoir plus sur le sujet n'hésitez pas à consulter le document suivant</a>
+            <br/>
+            <i>Donc:</i>
+            <p>Pour créer des liens (balise HTML < a >) :
+            [texte du lien]("url_du_lien "texte pour le titre, facultatif")</p>
+            <br/>
+            <h3>L'Emphase</h3>
+            <p>Pour formater une partie de votre texte comme emphase, entourez le par des astérisques ou des underscores. Entourer par un signe unique passe en italique (emphase faible : *;) et par un double signe en gras (emphase forte: **;). Il est possible de combiner les deux. Un double tildes vous permettent de barrer le texte. À titre personnel, j’utilise plutôt les astérisques, mais c’est une question de goût. La seule chose importante est d’être cohérent dans vos documents.</p>
+            <br/>
+            <i>Le code en Markdown:</i>
+            <br/>
+            <p>Texte _dont_ certains __éléments__ sont formatés **pour _être_** en *italique*, en **bold** ou ~~barrés~~</p>
+            <br/>
+            <i>Le code en HTML</i>
+            <br/>
+            <p>Texte <em>dont</em> certains <strong>éléments</strong> sont formatés <strong>pour <em>être</em></strong> en <em>italique</em>, en <strong>bold</strong> ou <del>barrés</del>.</p>
+            <br/>
+            <h3>Afficher une Image</h3>
+            <p>Un texte stylisé,c'est déjà trés beau mais on peut encore mieux , comme afficher une image !</p>
+            <p>D'ailleur voici le logo du Markdown</p>
+            <img src="https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png ">
+            <br/>
+            <br/>
+            <i>Ce qui donne en language Markdown:</i>
+            <br/>
+            <br/>
+            ![Alt](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1") .
+            <br/>
+            <br/>  
+            <p>Et notre image apparait!</p>         
+      </body>
+    </html>
