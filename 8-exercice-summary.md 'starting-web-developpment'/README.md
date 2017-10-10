@@ -59,7 +59,7 @@ exemple:
 		<`li><a class="link" href="#sect2">Le Collectif</a></li`><br/>
 		<`li><a class="link" href="#sect3">Agenda</a></li`><br/>
 		<`li><a class="link" href="#sect4">Contact</a></li`><br/>
-		<`li><a class="link" href="http://be.brussels/vivre-a-bruxelles/participation-a-la-vie-publique/participer-a-la-vie-associative" target="_blank">Autres Associations</a></`li`><br/>
+		<`li><a class="link" href="http://be.brussels/vivre-a-bruxelles/participation-a-la-vie-publique/participer-a-la-vie-associative" target="_blank">Autres Associations</a`></`li`><br/>
 	</`ul`><br/>
 </`div`><br/>
 <`a id="sect3"/`><br/>
