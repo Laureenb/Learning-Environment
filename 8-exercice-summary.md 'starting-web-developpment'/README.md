@@ -54,27 +54,25 @@ J'ai réussi à créer des ancres pour que les liens du menu puissent renvoyer d
 
 exemple:
 
-<code>
-<div id="menu">
-	<ul>
-		<li><a class="link" href="#sect1">Acceuil</a></li>
-		<li><a class="link" href="#sect2">Le Collectif</a></li>
-		<li><a class="link" href="#sect3">Agenda</a></li>
-		<li><a class="link" href="#sect4">Contact</a></li>
-		<li><a class="link" href="http://be.brussels/vivre-a-bruxelles/participation-a-la-vie-publique/participer-a-la-vie-associative" target="_blank">Autres Associations</a></li>
-	</ul>
-</div>
+< div id="menu">
+	< ul>
+		< li>< a class="link" href="#sect1">Acceuil</ a></ li>
+		< li>< a class="link" href="#sect2">Le Collectif</ a></ li>
+		< li>< a class="link" href="#sect3">Agenda</ a></ li>
+		< li>< a class="link" href="#sect4">Contact</ a></ li>
+		< li>< a class="link" href="http://be.brussels/vivre-a-bruxelles/participation-a-la-vie-publique/participer-a-la-vie-associative" target="_blank">Autres Associations</ a></ li>
+	< /ul>
+</ div>
 .
 .
 .
 .
-<a id="sect3"/>
-	<div id="titre"><h1>Agenda</h1></div>
-		<div class="content1">Nous sommes présent tous les mardis et vendredis dans votre commune, de 18h à 19h.<br/> 
-		Toute la nourriture est redistribuée <strong>le jour même</strong>. Les objets, vêtements et meubles seront soit redistribués, soit revendus aux bénéfices du fond d'aide social de votre commune.<br/><br/>
-		<i>"La solidarité, c'est <strong>aider</strong> chacun à porter le poids de la vie et à la rendre plus facile."</i>(<a href="http://www.mon-poeme.fr/citations-henri-frederic-amiel/"target="_blank">Citation de Henri-Frédéric Amiel</a>)
-		</div>
-</code>
+< a id="sect3"/>
+	< div id="titre">< h1>Agenda</ h1></ div>
+		< div class="content1">Nous sommes présent tous les mardis et vendredis dans votre commune, de 18h à 19h.< br/> 
+		Toute la nourriture est redistribuée < strong>le jour même</ strong>. Les objets, vêtements et meubles seront soit redistribués, soit revendus aux bénéfices du fond d'aide social de votre commune.< br/>< br/>
+		< i>"La solidarité, c'est < strong>aider</ strong> chacun à porter le poids de la vie et à la rendre plus facile."</ i>(< a href="http://www.mon-poeme.fr/citations-henri-frederic-amiel/"target="_blank">Citation de Henri-Frédéric Amiel</ a>)
+		</ div>
 
 
 Exo 4
@@ -168,6 +166,6 @@ exemple:
     margin-left: 38%;
     border-radius: 50%;
     border: 5px solid #EBEBEB;
-
+}
 
   
