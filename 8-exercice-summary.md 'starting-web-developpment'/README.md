@@ -53,7 +53,7 @@ J'ai réussi à créer des ancres pour que les liens du menu puissent renvoyer d
 
 exemple:
 
-<`div id="menu">
+`<div id="menu">
 	<ul>
 		<li><a class="link" href="#sect1">Acceuil</a></li>
 		<li><a class="link" href="#sect2">Le Collectif</a></li>
@@ -67,7 +67,7 @@ exemple:
 		<div class="content1">Nous sommes présent tous les mardis et vendredis dans votre commune, de 18h à 19h.<br/> 
 		Toute la nourriture est redistribuée <strong>le jour même</strong>. Les objets, vêtements et meubles seront soit redistribués, soit revendus aux bénéfices du fond d'aide social de votre commune.<br/><br/>
 		<i>"La solidarité, c'est <strong>aider</strong> chacun à porter le poids de la vie et à la rendre plus facile."</i>(<a href="http://www.mon-poeme.fr/citations-henri-frederic-amiel/"target="_blank">Citation de Henri-Frédéric Amiel</a>)
-</div`>
+</div>`
 
 
 Exo 4
