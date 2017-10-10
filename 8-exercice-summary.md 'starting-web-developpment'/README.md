@@ -34,20 +34,20 @@ links à l'intérieur.
 
 exemple:
 
-`menu {
-	background-color: #F2E900;
-	text-align: horizontal;
-	width: 100%;		
-}
-.link {
-	text-decoration: none;
-	color: #48473A; 
-	font-family: Lucida Sans Typewriter, monospace;
-	font-size: 16px;
-	margin: 12px;
-	line-height: 20px;
-	text-shadow: 1px 1px #f7eeee;
-}`
+`menu {`<br/>
+	`background-color: #F2E900;`<br/>
+	`text-align: horizontal;`<br/>
+	`width: 100%;`		<br/>
+`}`<br/>
+`.link {`<br/>
+	`text-decoration: none;`<br/>
+	`color: #48473A; `<br/>
+	`font-family: Lucida Sans Typewriter, monospace;`<br/>
+	`font-size: 16px;`<br/>
+	`margin: 12px;`<br/>
+	`line-height: 20px;`<br/>
+	`text-shadow: 1px 1px #f7eeee;`<br/>
+`}`<br/>
 
 J'ai réussi à créer des ancres pour que les liens du menu puissent renvoyer dans la page.
 
@@ -62,12 +62,12 @@ exemple:
 		<`li><a class="link" href="http://be.brussels/vivre-a-bruxelles/participation-a-la-vie-publique/participer-a-la-vie-associative" target="_blank">Autres Associations</a`></`li`><br/>
 	</`ul`><br/>
 </`div`><br/>
-<`a id="sect3"/>
-	<div id="titre"><h1>Agenda</h1></div>
-		<div class="content1">Nous sommes présent tous les mardis et vendredis dans votre commune, de 18h à 19h.<br/> 
-		Toute la nourriture est redistribuée <strong>le jour même</strong>. Les objets, vêtements et meubles seront soit redistribués, soit revendus aux bénéfices du fond d'aide social de votre commune.<br/><br/>
-		<i>"La solidarité, c'est <strong>aider</strong> chacun à porter le poids de la vie et à la rendre plus facile."</i>(<a href="http://www.mon-poeme.fr/citations-henri-frederic-amiel/"target="_blank">Citation de Henri-Frédéric Amiel</a>)
-</div`>
+<`a id="sect3"/`><br/>
+	<`div id="titre"><h1>Agenda</h1></div`><br/>
+		<`div class="content1">Nous sommes présent tous les mardis et vendredis dans votre commune, de 18h à 19h.<br/> 
+		Toute la nourriture est redistribuée <strong>le jour même</strong>. Les objets, vêtements et meubles seront soit redistribués, soit revendus aux bénéfices du fond d'aide social de votre commune.<br/`><br/>
+		<`i>"La solidarité, c'est <strong>aider</strong> chacun à porter le poids de la vie et à la rendre plus facile."</i`><br/>(<`a href="http://www.mon-poeme.fr/citations-henri-frederic-amiel/"target="_blank">Citation de Henri-Frédéric Amiel</a`>)<br/>
+<`/div`><br/>
 
 
 Exo 4
@@ -96,29 +96,29 @@ Les puces m'on pris également un peu de temps.
 
 exemple:
 
-`.puce-container {
-	padding-top: 0%;
-    padding-bottom: 10%;
-    padding-left: 10%;
-    padding-right: 25%;
-}
- .puce {
-    border-radius: 50%;
-    width: 20px;
-    height: 20px;
-    float: right;
-    margin-left: 2%;
-    margin-right: 2%;
- }
-  .puce-blanche {
- 	background: white;
- }
-  .puce-noire {
- 	background: black;
- }
- .arrondi-blanc {
- 	border: 2px solid white;
- }`
+`.puce-container {`<br/>
+	`padding-top: 0%;`<br/>
+    `padding-bottom: 10%;`<br/>
+    `padding-left: 10%;`<br/>
+    `padding-right: 25%;`<br/>
+`}`<br/>
+ `.puce {`<br/>
+    `border-radius: 50%;`<br/>
+    `width: 20px;`<br/>
+    `height: 20px;`<br/>
+    `float: right;`<br/>
+    `margin-left: 2%;`<br/>
+    `margin-right: 2%;`<br/>
+ `}`<br/>
+  `.puce-blanche {`<br/>
+ 	`background: white;`<br/>
+ `}`<br/>
+  `.puce-noire {`<br/>
+ 	`background: black;`<br/>
+ `}`<br/>
+ `.arrondi-blanc {`<br/>
+ 	`border: 2px solid white;`<br/>
+`}`<br/>
 
 Je me rends compte également que j'ai beaucoup de difficulté à nommé mes classes...
 c'est quelque chose sur lequel je dois travailler.
@@ -153,12 +153,12 @@ mes div.
 
 exemple:
 
-`.imagetim {
-	width: 19%;
-    background-position: center center;
-    margin-left: 38%;
-    border-radius: 50%;
-    border: 5px solid #EBEBEB;
-}`
+`.imagetim {`<br/>
+	`width: 19%;`<br/>
+    `background-position: center center;`<br/>
+    `margin-left: 38%;`<br/>
+    `border-radius: 50%;`<br/>
+    `border: 5px solid #EBEBEB;`<br/>
+`}`<br/>
 
   
