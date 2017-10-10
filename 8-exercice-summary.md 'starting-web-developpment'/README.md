@@ -34,12 +34,11 @@ links à l'intérieur.
 
 exemple:
 
-menu {
+`menu {
 	background-color: #F2E900;
 	text-align: horizontal;
 	width: 100%;		
 }
-
 .link {
 	text-decoration: none;
 	color: #48473A; 
@@ -48,13 +47,13 @@ menu {
 	margin: 12px;
 	line-height: 20px;
 	text-shadow: 1px 1px #f7eeee;
-}
+}`
 
 J'ai réussi à créer des ancres pour que les liens du menu puissent renvoyer dans la page.
 
 exemple:
 
-<!-- <div id="menu">
+<`div id="menu">
 	<ul>
 		<li><a class="link" href="#sect1">Acceuil</a></li>
 		<li><a class="link" href="#sect2">Le Collectif</a></li>
@@ -72,7 +71,7 @@ exemple:
 		<div class="content1">Nous sommes présent tous les mardis et vendredis dans votre commune, de 18h à 19h.<br/> 
 		Toute la nourriture est redistribuée <strong>le jour même</strong>. Les objets, vêtements et meubles seront soit redistribués, soit revendus aux bénéfices du fond d'aide social de votre commune.<br/><br/>
 		<i>"La solidarité, c'est <strong>aider</strong> chacun à porter le poids de la vie et à la rendre plus facile."</i>(<a href="http://www.mon-poeme.fr/citations-henri-frederic-amiel/"target="_blank">Citation de Henri-Frédéric Amiel</a>)
-	</div> -->
+</div`>
 
 
 Exo 4
@@ -86,7 +85,7 @@ horizontale.
 
 exemple:
 
-overflow-x: hidden;
+`overflow-x: hidden;`
 
 La qualité de l'image m'a aussi pris beaucoup de temps à régler car je suis partie d'une 
 image du web où la qualité n'était déja pas bonne à la base. 
@@ -101,8 +100,7 @@ Les puces m'on pris également un peu de temps.
 
 exemple:
 
-<!-- PUCES -->
-.puce-container {
+`.puce-container {
 	padding-top: 0%;
     padding-bottom: 10%;
     padding-left: 10%;
@@ -124,8 +122,7 @@ exemple:
  }
  .arrondi-blanc {
  	border: 2px solid white;
- }
-<!-- PUCES -->
+ }`
 
 Je me rends compte également que j'ai beaucoup de difficulté à nommé mes classes...
 c'est quelque chose sur lequel je dois travailler.
@@ -160,12 +157,12 @@ mes div.
 
 exemple:
 
-.imagetim {
+`.imagetim {
 	width: 19%;
     background-position: center center;
     margin-left: 38%;
     border-radius: 50%;
     border: 5px solid #EBEBEB;
-}
+}`
 
   
