@@ -1,0 +1,132 @@
+body {
+	background-color: #EBEBEB;
+	/*font-family: Open-sans, Montserrat;*/
+}
+
+img {
+	width: 56%;
+    text-align: center;
+
+}
+
+.nomrouge h1{
+	color: #DD5555;
+}
+
+.imagetim {
+	width: 19%;
+    background-position: center center;
+    margin-left: 38%;
+    border-radius: 50%;
+    border: 5px solid #EBEBEB;
+
+}
+
+.a {
+	text-decoration: none;
+	color:white;
+	font-family: Open-sans, Montserrat;
+}
+
+a {
+	text-decoration: none;
+	color:darkgrey;
+	font-family: Open-sans, Montserrat;
+}
+
+button {
+	background-color: #DD5555;
+    margin-left: 40%;
+    margin-bottom: 5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    color: white;
+    border-radius: 10%;
+
+}
+
+.unp {
+	padding-right: 5%;
+	padding-left: 5%;
+}
+
+p {
+	color:darkgrey;
+	font-family: Open-sans, Montserrat;
+	text-align: justify;
+}
+
+h1 {
+	text-align: center;
+	font-family: Open-sans, Montserrat;
+	color: darkgrey;
+}
+
+h2 {
+	text-align: center;
+	font-family: Open-sans, Montserrat;
+	color: darkgrey;
+}
+
+h3 {
+	text-align: center;
+	font-family: Open-sans, Montserrat;
+	color: darkgrey;
+}
+
+.infofilm {
+	margin: 10%;
+    /*margin-bottom: 15%;*/
+    font-family: Open-sans, Montserrat;
+    color: darkgrey;
+}
+
+.imagefilms {
+	float: left;
+	width: 30%;
+}
+
+.textefilm {
+	text-align: justify;
+	font-family: Open-sans, Montserrat;
+	color: darkgrey;
+}
+
+.icones {
+    padding: 10%;
+    display: inline-flex;
+    color: #EBEBEB;
+}
+
+.facebook {
+	margin-left: 10%;
+}
+
+.linkedin {
+	margin-left: 10%;
+}
+
+.twitter {
+	margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+.main {
+	width : 50%;
+	margin: auto;
+
+}
+
+.container {
+	background-color: white;
+    width: 100%;
+    margin-bottom: 5%;
+    padding-top: 5%;
+    box-shadow: 0px 2px 2px 2px darkgrey;
+    border-radius: 10px;
+
+}
+
