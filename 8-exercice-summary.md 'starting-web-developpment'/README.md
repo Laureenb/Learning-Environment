@@ -53,15 +53,15 @@ J'ai réussi à créer des ancres pour que les liens du menu puissent renvoyer d
 
 exemple:
 
-<`div id="menu"`>
-	<`ul`>
-		<`li><a class="link" href="#sect1">Acceuil</a></li`>
-		<`li><a class="link" href="#sect2">Le Collectif</a></li`>
-		<`li><a class="link" href="#sect3">Agenda</a></li`>
-		<`li><a class="link" href="#sect4">Contact</a></li`>
-		<`li><a class="link" href="http://be.brussels/vivre-a-bruxelles/participation-a-la-vie-publique/participer-a-la-vie-associative" target="_blank">Autres Associations</a`></`li`>
-	</`ul`>
-</`div`>
+<`div id="menu"`><br/>
+	<`ul`><br/>
+		<`<br/>li><a class="link" href="#sect1">Acceuil</a></li`><br/>
+		<`li><a class="link" href="#sect2">Le Collectif</a></li`><br/>
+		<`li><a class="link" href="#sect3">Agenda</a></li`><br/>
+		<`li><a class="link" href="#sect4">Contact</a></li`><br/>
+		<`li><a class="link" href="http://be.brussels/vivre-a-bruxelles/participation-a-la-vie-publique/participer-a-la-vie-associative" target="_blank">Autres Associations</a`></`li`><br/>
+	</`ul`><br/>
+</`div`><br/>
 <`a id="sect3"/>
 	<div id="titre"><h1>Agenda</h1></div>
 		<div class="content1">Nous sommes présent tous les mardis et vendredis dans votre commune, de 18h à 19h.<br/> 
