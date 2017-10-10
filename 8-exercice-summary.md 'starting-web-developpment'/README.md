@@ -62,10 +62,6 @@ exemple:
 		<li><a class="link" href="http://be.brussels/vivre-a-bruxelles/participation-a-la-vie-publique/participer-a-la-vie-associative" target="_blank">Autres Associations</a></li>
 	</ul>
 </div>
-.
-.
-.
-.
 <a id="sect3"/>
 	<div id="titre"><h1>Agenda</h1></div>
 		<div class="content1">Nous sommes présent tous les mardis et vendredis dans votre commune, de 18h à 19h.<br/> 
