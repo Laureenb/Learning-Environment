@@ -74,7 +74,7 @@ Exo 4
 -----
 
 Je crois que c'est l'exercice qui m'a pris le plus de temps. J'ai eu beaucoup de mal à
-faire en sorte qu'on ne puisse pas scroler la page...j'y ai passé beaucoup de temps pour 
+faire en sorte qu'on ne puisse pas scroller la page...j'y ai passé beaucoup de temps pour 
 le refaire et au final cela ne fonctionnait toujours pas... Grâce à Axel j'ai découvert
 la propriété overflow-x, qui permet de figer la page à partir de l'axe verticale ou 
 horizontale.
@@ -90,9 +90,9 @@ Exo 5
 -----
 
 Pour créer le cv, ce qui m'a pris un peu plus de temps c'est de trouver comment arrondir 
-mon image (j'ai pour  finir travailler sur PS mais la solution se trouve dans l'exo 8).
+mon image (j'ai pour finir travaillé sur PS mais la solution se trouve dans l'exo 8).
 
-Les puces m'on pris également un peu de temps.
+Les puces m'ont également pris un peu de temps.
 
 exemple:
 
@@ -120,8 +120,8 @@ exemple:
  	`border: 2px solid white;`<br/>
 `}`<br/>
 
-Je me rends compte également que j'ai beaucoup de difficulté à nommé mes classes...
-c'est quelque chose sur lequel je dois travailler.
+Je me rends compte aussi que j'ai beaucoup de difficultés à nommer mes classes...
+C'est quelque chose sur lequel je dois travailler.
 
 
 Exo 6
@@ -134,7 +134,7 @@ trouve plus cohérent d'utiliser plus ou moins la même présentation.
 Exo 7
 -----
 
-Pour l'exercice Star Wars, je me suis pas mal inspiré de codes sur le net que j'ai 
+Pour l'exercice Star Wars, je me suis pas mal inspirée de codes sur le net que j'ai 
 modifié, tout en essayant de rajouter des propriétés. 
 La difficulté était de faire en sorte que ma balise vidéo ne soit pas visible.
 
@@ -146,9 +146,9 @@ Exo 8
 -----
 
 Dans cet exercice, j'ai perdu un peu de temps a régler la taille de mes images. 
-J'ai créer une balise image, une classe image et j'ajoutais des padding 
+J'ai créé une balise image, une classe image et ajouté des padding 
 et des margin à mes div conteneur. 
-Du coups, je me suis un peu embrouillé et j'ai du réinitialiser la plupart de 
+Dû coup, je me suis un peu embrouillé et j'ai du réinitialiser la plupart de 
 mes div.   
 
 exemple:

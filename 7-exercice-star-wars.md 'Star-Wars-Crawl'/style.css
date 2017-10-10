@@ -6,6 +6,10 @@ body {
   background-size: 90%;
   overflow: hidden;
 }
+
+.logo img {
+  width: 17%;
+}
 /*Pour faire disparaitre le lecteur*/
 .son {
   display: none;
