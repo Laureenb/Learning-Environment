@@ -13,10 +13,11 @@ body {
 	padding: 2cm 4cm 3cm 4cm;
 }
 
-.titre {
+.titreh3 {
  	color: #1D1E1E;
  	text-decoration: none;
  	text-align: left;
+ 	font-size: 105%;
 }
 
 h3 {
