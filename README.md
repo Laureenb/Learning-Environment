@@ -1,6 +1,6 @@
 # Learning-Environment
 
-##Exercice-markdown-to-html.md
+## 1.Exercice-markdown-to-html.md
 
 ### Objectifs
 - Explorer le language HTML
@@ -13,7 +13,7 @@
 - Publie sur ton dépôt le fichier HTML
 
 
-##Exercice-markdown-to-html-and-css.md
+## 2.Exercice-markdown-to-html-and-css.md
 
 ### Objectifs
 - Explorer le language HTML
