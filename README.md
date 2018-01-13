@@ -97,7 +97,7 @@
 
 
 ## 7.Exercice-star-wars.md 'Star-Wars-Crawl'
-![Generiue de star wars](images/star-wars.jpg)
+![Generique de star wars](images/star-wars.jpg)
 ### Objectifs
 - Connaître plus de propriétés CSS
 - Améliorer ses compétences en positionnement CSS
